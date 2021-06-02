@@ -1,0 +1,73 @@
+#intro {
+    background: $dark;
+    position: relative;
+    background-image: url(../images/classy-fabric.png);
+
+    &::after {
+        content: '';
+        width: 100%;
+        height: calc(7vw);
+        background: $dark;
+        background-image: url(../images/classy-fabric.png);
+        bottom: 0;
+        position: absolute;
+        transform: skewY(4deg) translateY(50%);
+        display: block;
+        z-index: -1;
+    }
+
+    .container--small {
+        .intro {
+
+            &_content {
+                padding: rem(100) 0;
+                display: flex;
+            }
+
+            &_header {
+                position: relative;
+                display: inline-block;
+                margin-bottom: rem(40);
+
+                &::before {
+                    content: '';
+                    background: url(../images/h1-open.png);
+                    display: block;
+                    position: absolute;
+                    height: rem(45);
+                    width: rem(100);
+                    opacity: 0.4;
+                    background-size: 100%;
+                    background-repeat: no-repeat;
+                    background-position: center;
+                    background-size: contain;
+                    z-index: 99999;
+                    top: rem(-25);
+                    left: rem(-60);
+                }
+
+                &::after {
+                    content: '';
+                    background: url(../images/h1-closed.png);
+                    background-size: 100%;
+                    background-repeat: no-repeat;
+                    background-position: center;
+                    background-size: contain;
+                    display: block;
+                    position: absolute;
+                    height: rem(45);
+                    width: rem(100);
+                    opacity: 0.4;
+                    z-index: 99999;
+                    bottom: rem(-15);
+                    right: rem(-75);
+                }
+            }
+
+            &_text {
+                padding-right: 10%;
+                margin-bottom: rem(60);
+            }
+        }
+    }
+}

@@ -1,0 +1,1 @@
+{"version":3,"sources":["_typography.scss"],"names":[],"mappings":"AAAA,GACI,SAAU,CAGd,GACI,UAAW","file":"main.css","sourcesContent":["h1 {\r\n    color: red;\r\n}\r\n\r\nh2 {\r\n    color: blue;\r\n}"]}

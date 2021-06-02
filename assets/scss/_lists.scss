@@ -1,0 +1,23 @@
+ul.mainNav {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+
+    li {
+        list-style: none;
+
+        a {
+            color: $light;
+            text-decoration: none;
+            font-size: rem(12);
+
+            &.active {
+                color: $main;
+            }
+
+            &:hover {
+                text-decoration: underline;
+            }
+        }
+    }
+}

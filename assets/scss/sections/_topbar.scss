@@ -1,0 +1,21 @@
+#topBar {
+    background: $main;
+    width: 100%;
+
+    .container--main {
+        .contactInfo {
+            display: flex;
+            align-content: flex-end;
+
+            &__email {
+                color: red;
+                margin-left: auto;
+
+                p {
+                    padding: rem(5) 0;
+                }
+            }
+
+        }
+    }
+}

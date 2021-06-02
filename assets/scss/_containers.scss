@@ -1,0 +1,25 @@
+.container {
+    margin: 0 auto;
+    padding: 0 rem(50);
+
+    &--main {
+        @extend .container;
+        max-width: rem(1300);
+    }
+
+    &--stretch {
+        @extend .container;
+        max-width: 90vw;
+    }
+
+    &--small {
+        @extend .container;
+        max-width: rem(830)
+    }
+
+    &--nav {
+        @extend .container;
+        max-width: rem(500);
+    }
+
+}

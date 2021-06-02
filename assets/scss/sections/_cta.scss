@@ -1,0 +1,19 @@
+#cta {
+    width: 100%;
+    background: $main;
+
+    &:hover {
+        background: lighten($main, 5%)
+    }
+
+    a {
+        text-decoration: none;
+
+        .container--main {
+            .cta_text {
+                text-align: center;
+                padding: rem(10) 0;
+            }
+        }
+    }
+}

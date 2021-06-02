@@ -1,0 +1,12 @@
+.btn-main {
+    background: $main;
+    color: white;
+    font-size: rem(16);
+    text-decoration: none;
+    padding: rem(15) rem(25);
+    border-radius: 5px;
+
+    &:hover {
+        background: lighten($main, 5%)
+    }
+}
